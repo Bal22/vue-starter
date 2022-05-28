@@ -30,13 +30,19 @@
 
 <script>
 
+import "milligram";
+
 export default {
+
+
   data() {
     return {
       email: '',
-      logged: false
+      logged: false,
     };
   },
+
+
 
   methods: {
     alertMyEmail() {
